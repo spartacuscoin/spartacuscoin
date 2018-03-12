@@ -1,0 +1,34 @@
+src/*.exe
+src/spartacuscoin
+src/spartacuscoind
+src/test_spartacuscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.spartacuscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+spartacuscoin-qt
+Spartacuscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+spartacuscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
